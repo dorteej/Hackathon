@@ -8,7 +8,7 @@ header {
     height: 100px;
     width: 100%;
     padding: 0 3%;
-    background-color: #32287c;
+    background-color: white;
     position: fixed;
     z-index: 10000; /* slik at headeren alltid er synlig */
 }
@@ -85,7 +85,7 @@ nav ul li a {
 }
 
 .logg_inn {
-    background-color: white;
+    background-color: lightskyblue;
     cursor: pointer;
     width: 85px;
 }
@@ -99,7 +99,7 @@ nav ul li a {
 }
 
 .registrer {
-    background-color: black;
+    background-color: white;
     cursor: pointer;
 }
 
@@ -111,7 +111,7 @@ nav ul li a {
 }
 
 .reiseblogg, .meg {
-    background-color: lightgray;
+    background-color: rgb(190, 224, 251);
     padding: 150px 3% 50px 3%;
 }
 
@@ -474,7 +474,7 @@ footer {
 }
 
 .fa-brands {
-    color: white; 
+    color: lightskyblue; 
     padding-top: 10px;
 }
 
