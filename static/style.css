@@ -8,7 +8,7 @@ header {
     height: 100px;
     width: 100%;
     padding: 0 3%;
-    background-color: white;
+    background-color: #32287c;
     position: fixed;
     z-index: 10000; /* slik at headeren alltid er synlig */
 }
@@ -85,7 +85,7 @@ nav ul li a {
 }
 
 .logg_inn {
-    background-color: #32287c;
+    background-color: white;
     cursor: pointer;
     width: 85px;
 }
@@ -95,7 +95,7 @@ nav ul li a {
 }
 
 .logg_inn a:visited {
-    color: white;
+    color: #32287c;
 }
 
 .registrer {
@@ -198,7 +198,7 @@ nav ul li a {
 }
 
 .bildenr, .bildetekst {
-    color: darkblue;
+    color: darkblue; /**/
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
@@ -476,7 +476,7 @@ footer {
 }
 
 .fa-brands {
-    color: #32287c; 
+    color: white; 
     padding-top: 10px;
 }
 
