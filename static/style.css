@@ -85,7 +85,7 @@ nav ul li a {
 }
 
 .logg_inn {
-    background-color: darkblue;
+    background-color: #32287c;
     cursor: pointer;
     width: 85px;
 }
@@ -164,7 +164,7 @@ nav ul li a {
 }
 
 .scroll {
-    color: darkblue;
+    color: #32287c;
     font-size: 20px;
 }
 
@@ -306,7 +306,7 @@ nav ul li a {
 
 .siste {
     padding: 50px 3% 50px 3%;
-    background-color: darkblue;
+    background-color: #32287c;
 }
 
 footer {
@@ -374,7 +374,7 @@ footer {
     padding: 10px 5px;
     font-size: 12px;
     color: #fff;
-    background-color: darkblue;
+    background-color: #32287c;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -424,7 +424,7 @@ footer {
 }
 
 .paulina, .anette {
-    background-color: darkblue;
+    background-color: #32287c;
 }
 
 /* mobil versjon */
@@ -466,7 +466,7 @@ footer {
     }
 
     .lisbeth {
-        background-color: darkblue;
+        background-color: #32287c;
     }
 }
 
@@ -476,7 +476,7 @@ footer {
 }
 
 .fa-brands {
-    color: darkblue; 
+    color: #32287c; 
     padding-top: 10px;
 }
 
@@ -488,7 +488,7 @@ footer {
 }
 
 .alert.error {
-    background-color: darkblue;
+    background-color: #32287c;
     border-color: red;
 }
 
@@ -550,7 +550,7 @@ form input[type="file"] {
 }
 
 .publiser {
-    background-color: darkblue;
+    background-color: #32287c;
     color: #f2e3e3;
     padding: 10px 20px;
     border: none;
@@ -605,7 +605,7 @@ form input[type="file"] {
     padding: 10px 20px;
     font-size: 14px;
     color: #fff;
-    background-color: darkblue;
+    background-color: #32287c;
     border: none;
     border-radius: 5px;
     width: 30%;
