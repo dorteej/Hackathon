@@ -15,14 +15,14 @@ app.config['UPLOAD_FOLDER'] = 'static/images'
 app.config['WTF_CSRF_ENABLED'] = True
 app.config['WTF_CSRF_SECRET_KEY'] = 'a csrf secret key'
 
-# Function to connect to the database, from ex2 lecture 04.04
+# Function to connect to the database
 def get_db():
     if not hasattr(g, "_database"):
         g._database = sqlite3.connect("./data/database.db")
         g._database.row_factory = sqlite3.Row
     return g._database
 
-# Function to disconnect from the database, from ex2 lecture 04.04
+# Function to disconnect from the database
 @app.teardown_appcontext
 def teardown_db(error):
     db = getattr(g, '_database', None)
