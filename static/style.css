@@ -181,7 +181,7 @@ nav ul li a {
 
 .slideshow img {
     width: 100%;
-    max-width: 250px;
+    max-width: 85%;
     height: 350px;
 }
 
@@ -276,19 +276,17 @@ nav ul li a {
 }
 
 .container {
-    background-color: white;
     flex: 50%;
 }
 
 .container img {
-    width: 100px;
-    height: 150px;
+    width: 70%;
+    height: 100%;
 }
 
 .lite-bilde {
     flex: 50%;
     float: left;
-    padding-left: 50px;
 }
 
 .info {
